@@ -23,7 +23,18 @@ Perceptron.vcxproj.filters
 
 Perceptron.cpp
     This is the main application source file.
-
+    
+Neuron 
+	Class include description and parametres of one neuron
+	
+Layer 
+	Class include description and parametres of one layer. 
+	Class Layer also contain std::vector<Neuron>
+	
+Network
+	Class include description and parametres of neural network. 
+	Class Network also contain std::vector<Layer>
+	Also contain forward propogation and back propogation methods
 /////////////////////////////////////////////////////////////////////////////
 Other standard files:
 
